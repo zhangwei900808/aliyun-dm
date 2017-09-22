@@ -11,7 +11,7 @@
 
 
 ```php
-  composer require quefei/aliyundm
+  composer require awbeci/aliyundm
 ```
 
 
@@ -22,7 +22,7 @@
 在 `config/app.php` 文件的 `providers` 数组中加入：
 
 ```php
-  Quefei\AliyunDm\Providers\AliyunDmServiceProvider::class,
+  Awbeci\AliyunDm\Providers\AliyunDmServiceProvider::class,
 ```
 
 
@@ -94,7 +94,7 @@
    *
    */
    
-  use Quefei\AliyunDm\Facades\DM;
+  use Awbeci\AliyunDm\Facades\DM;
   
   
   
