@@ -29,7 +29,7 @@
 在 `config/app.php` 文件的 `aliases` 数组中加入：
 
 ```php
-  'DM' => Quefei\AliyunDm\Facades\DM::class,
+  'DM' => Awbeci\AliyunDm\Facades\DM::class,
 ```
 
 
