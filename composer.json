@@ -10,5 +10,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=7.0.7",
+        "illuminate/support": "5.4.* || 5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Awbeci\\AliyunDm\\": "src/"
+        },
+		"classmap": ["src/Sdk/aliyun-php-sdk-dm/Dm/Request/V20151123/"],
+		"files": ["src/Sdk/aliyun-php-sdk-core/Config.php", "src/Helpers/AliyunDmHelper.php"]
+    }
 }
