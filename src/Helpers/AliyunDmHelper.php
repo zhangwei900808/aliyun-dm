@@ -16,7 +16,7 @@ if (! function_exists('dmSendMail'))
 		
 		
 		$client = new DefaultAcsClient($iClientProfile);
-		$request = new SingleSendMailRequest();
+		$request = new Dm\Request\V20151123\SingleSendMailRequest();
 		
 		
 		$request->setAccountName($SendAddress);
