@@ -1,0 +1,14 @@
+{
+    "name": "awbeci/aliyun-dm",
+    "description": "used aliyun dm for awbeci",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangwei",
+            "email": "zw900808@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
