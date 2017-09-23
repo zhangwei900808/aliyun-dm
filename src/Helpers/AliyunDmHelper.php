@@ -12,7 +12,7 @@ if (! function_exists('dmSendMail'))
 	
     function dmSendMail($to, $subject, $body, $AccessKeyID, $AccessKeySecret, $SendAddress, $Sender, $MailTag)
     {
-        $iClientProfile = DefaultProfile::getProfile("cn-nanjing", $AccessKeyID, $AccessKeySecret);
+        $iClientProfile = DefaultProfile::getProfile("cn-hangzhou", $AccessKeyID, $AccessKeySecret);
 		
 		
 		$client = new DefaultAcsClient($iClientProfile);
