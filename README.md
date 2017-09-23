@@ -38,7 +38,7 @@
 
 
 ```php
-  php artisan vendor:publish
+  php artisan vendor:publish --provider="Awbeci\AliyunDm\Providers\AliyunDmServiceProvider"
 ```
 
 
